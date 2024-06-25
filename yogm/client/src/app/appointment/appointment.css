@@ -1,0 +1,30 @@
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.appointment-form div {
+    margin-bottom: 15px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 479px) {
+    .appointment-form {
+        margin: 50px 20px
+    }
+}
